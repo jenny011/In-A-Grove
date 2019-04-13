@@ -1,4 +1,4 @@
-# """To view the project, start from file 'index.html' in folder 'Home'"""
+# """To view the project, start from file 'index.html'"""
 # """Thank you for your interest!"""
 # Interactive Novel - In a Grove
 # Communications Lab course project
