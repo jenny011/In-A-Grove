@@ -34,7 +34,7 @@ function show3(){
 var leaves = [];
 var input, button, button2;
 function setup() {
-  canvas =  createCanvas(1440,900);
+  canvas =  createCanvas(window.innerWidth,window.innerHeight);
   frameRate(30);
   background(0);
   for(var i=0; i<150; i++){
