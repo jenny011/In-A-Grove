@@ -63,7 +63,7 @@ function nextpage() {
 var leaves = [];
 
 function setup() {
-  var cnv = createCanvas(windowWidth,windowHeight);
+  var cnv = createCanvas(window.innerWidth,window.innerHeight);
   cnv.parent("canvas-holder");
   frameRate(30);
   background(0);
