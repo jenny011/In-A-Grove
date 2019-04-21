@@ -61,7 +61,7 @@ function show10(){
   tscene1.style.visibility = "visible";
   t0.classList.add("show");
   t0.style.visibility = "visible";
-  setTimeout(function(){show11()},4000);
+  setTimeout(function(){show11()},5500);
 }
 function show11(){
   t0.classList.add("vanish");
@@ -71,21 +71,21 @@ function show11(){
   tc01.classList.add("show");
   tc01.style.visibility = "visible";
   tc01.style.opacity = "1";
-  setTimeout(function(){show12()},4000);
+  setTimeout(function(){show12()},5500);
 }
 function show12(){
   t1.classList.add("vanish");
   t1.style.opacity = "0";
   t2.classList.add("show");
   t2.style.visibility = "visible";
-  setTimeout(function(){show13()},4000);
+  setTimeout(function(){show13()},5500);
 }
 function show13(){
   t2.classList.add("vanish");
   t2.style.opacity = "0";
   t3.classList.add("show");
   t3.style.visibility = "visible";
-  setTimeout(function(){show14()},4000);
+  setTimeout(function(){show14()},5500);
 }
 function show14(){
   t3.classList.add("vanish");
@@ -135,14 +135,14 @@ function show20(){
   kc01.classList.add("show");
   kc01.style.visibility = "visible";
   kc01.style.opacity = "1";
-  setTimeout(function(){show21()},4000);
+  setTimeout(function(){show21()},5500);
 }
 function show21(){
   k0.classList.add("vanish");
   k0.style.opacity = "0";
   k1.classList.add("show");
   k1.style.visibility = "visible";
-  setTimeout(function(){show22()},4000);
+  setTimeout(function(){show22()},5500);
 }
 function show22(){
   k1.classList.add("vanish");
@@ -151,7 +151,7 @@ function show22(){
   k2.style.visibility = "visible";
   kc01.classList.add("vanish");
   kc01.style.opacity = "0";
-  setTimeout(function(){show23()},4000);
+  setTimeout(function(){show23()},5500);
 }
 function show23(){
   k2.classList.add("vanish");
@@ -201,7 +201,7 @@ function show30(){
   mscene1.style.visibility = "visible";
   m0.classList.add("show");
   m0.style.visibility = "visible";
-  setTimeout(function(){show31()},4000);
+  setTimeout(function(){show31()},5500);
 }
 function show31(){
   m0.classList.add("vanish");
@@ -211,14 +211,14 @@ function show31(){
   mc01.classList.add("show");
   mc01.style.visibility = "visible";
   mc01.style.opacity = "1";
-  setTimeout(function(){show32()},4000);
+  setTimeout(function(){show32()},5500);
 }
 function show32(){
   m1.classList.add("vanish");
   m1.style.opacity = "0";
   m2.classList.add("show");
   m2.style.visibility = "visible";
-  setTimeout(function(){show33()},4000);
+  setTimeout(function(){show33()},5500);
 }
 function show33(){
   m2.classList.add("vanish");

@@ -84,7 +84,7 @@ function show10(){
   tc01.classList.add("show");
   tc01.style.visibility = "visible";
   tc01.style.opacity = "1";
-  setTimeout(function(){show11()},4500);
+  setTimeout(function(){show11()},6500);
 }
 function show11(){
   t0.classList.add("vanish");
@@ -94,21 +94,21 @@ function show11(){
   tc02.classList.add("show");
   tc02.style.visibility = "visible";
   tc02.style.opacity = "1";
-  setTimeout(function(){show12()},4500);
+  setTimeout(function(){show12()},6500);
 }
 function show12(){
   t1.classList.add("vanish");
   t1.style.opacity = "0";
   t2.classList.add("show");
   t2.style.visibility = "visible";
-  setTimeout(function(){show13()},4500);
+  setTimeout(function(){show13()},6500);
 }
 function show13(){
   t2.classList.add("vanish");
   t2.style.opacity = "0";
   t3.classList.add("show");
   t3.style.visibility = "visible";
-  setTimeout(function(){show14()},4500);
+  setTimeout(function(){show14()},6500);
 }
 function show14(){
   t3.classList.add("vanish");
@@ -125,7 +125,7 @@ function show14(){
   tc04.classList.add("show");
   tc04.style.visibility = "visible";
   tc04.style.opacity = "1";
-  setTimeout(function(){show15()},4500);
+  setTimeout(function(){show15()},6500);
 }
 function show15(){
   t4.classList.add("vanish");
@@ -134,7 +134,7 @@ function show15(){
   t5.style.visibility = "visible";
   tc04.classList.add("vanish");
   tc04.style.opacity = "0";
-  setTimeout(function(){show16()},4500);
+  setTimeout(function(){show16()},6500);
 }
 function show16(){
   t5.classList.add("vanish");
@@ -189,7 +189,7 @@ function show20(){
   kc02.classList.add("show");
   kc02.style.visibility = "visible";
   kc02.style.opacity = "1";
-  setTimeout(function(){show21()},4500);
+  setTimeout(function(){show21()},6500);
 }
 function show21(){
   k0.classList.add("vanish");
@@ -199,7 +199,7 @@ function show21(){
   kc01.src="image/tescape1.png";
   kc02.classList.add("vanish");
   kc02.style.opacity = "0";
-  setTimeout(function(){show22()},4500);
+  setTimeout(function(){show22()},6500);
 }
 function show22(){
   k1.classList.add("vanish");
@@ -213,7 +213,7 @@ function show22(){
   kc03.style.visibility = "visible";
   kc03.style.opacity = "1";
   bg.src = "image/bg_cedar2.png";
-  setTimeout(function(){show23()},4500);
+  setTimeout(function(){show23()},6500);
 }
 function show23(){
   k2.classList.add("vanish");
@@ -225,7 +225,7 @@ function show23(){
   kc04.classList.add("show");
   kc04.style.visibility = "visible";
   kc04.style.opacity = "1";
-  setTimeout(function(){show24()},4500);
+  setTimeout(function(){show24()},6500);
 }
 function show24(){
   k3.classList.add("vanish");
@@ -242,7 +242,7 @@ function show24(){
   kc06.classList.add("show");
   kc06.style.visibility = "visible";
   kc06.style.opacity = "1";
-  setTimeout(function(){show25()},4500);
+  setTimeout(function(){show25()},6500);
 }
 function show25(){
   k4.classList.add("vanish");
@@ -293,14 +293,14 @@ function show30(){
   mscene1.style.visibility = "visible";
   m0.classList.add("show");
   m0.style.visibility = "visible";
-  setTimeout(function(){show31()},4500);
+  setTimeout(function(){show31()},6500);
 }
 function show31(){
   m0.classList.add("vanish");
   m0.style.opacity = "0";
   m1.classList.add("show");
   m1.style.visibility = "visible";
-  setTimeout(function(){show32()},4500);
+  setTimeout(function(){show32()},6500);
 }
 function show32(){
   m1.classList.add("vanish");
@@ -313,21 +313,21 @@ function show32(){
   mc02.classList.add("show");
   mc02.style.visibility = "visible";
   mc02.style.opacity = "1";
-  setTimeout(function(){show33()},4500);
+  setTimeout(function(){show33()},6500);
 }
 function show33(){
   m2.classList.add("vanish");
   m2.style.opacity = "0";
   m3.classList.add("show");
   m3.style.visibility = "visible";
-  setTimeout(function(){show34()},4500);
+  setTimeout(function(){show34()},6500);
 }
 function show34(){
   m3.classList.add("vanish");
   m3.style.opacity = "0";
   m4.classList.add("show");
   m4.style.visibility = "visible";
-  setTimeout(function(){show35()},4500);
+  setTimeout(function(){show35()},6500);
 }
 function show35(){
   m4.classList.add("vanish");
@@ -341,7 +341,7 @@ function show35(){
   mc03.classList.add("show");
   mc03.style.visibility = "visible";
   mc03.style.opacity = "1";
-  setTimeout(function(){show36()},4500);
+  setTimeout(function(){show36()},6500);
 }
 function show36(){
   m5.classList.add("vanish");
@@ -356,14 +356,14 @@ function show36(){
   ri.classList.add("show");
   ri.style.opacity = "0.4";
   bg.src = "image/bg_cedar2.png";
-  setTimeout(function(){show37()},4500);
+  setTimeout(function(){show37()},6500);
 }
 function show37(){
   m6.classList.add("vanish");
   m6.style.opacity = "0";
   m7.classList.add("show");
   m7.style.visibility = "visible";
-  setTimeout(function(){show38()},4500);
+  setTimeout(function(){show38()},6500);
 }
 function show38(){
   m7.classList.add("vanish");

@@ -101,7 +101,7 @@ html, body {
   animation: toLeft 1.5s;
 }
 #T0-1.show,#T1-1.show,#T2-1.show,#T3-1.show,#Tbutton1.show{
-  animation:show 3s;
+  animation:show 4s;
 }
 #T0-1.vanish,#T1-1.vanish,#T2-1.vanish,#T3-1.vanish{
   animation:vanish 2s;
@@ -167,13 +167,13 @@ html, body {
   animation: vanish 2s;
 }
 #Timg2.showl{
-  animation: horse 8s;
+  animation: horse 12s;
 }
 #T0-2.show,#T1-2.show,#T2-2.show,#T3-2.show,#T4-2.show,#Tbutton2.show{
-  animation:show 3s;
+  animation:show 5s;
 }
 #T0-2.vanish,#T1-2.vanish,#T2-2.vanish,#T3-2.vanish{
-  animation:vanish 2s;
+  animation:vanish 3s;
 }
 @keyframes horse{
   0%{opacity:0;width:24%;left:70%;bottom:60%;}
@@ -227,10 +227,10 @@ html, body {
   animation: show 3s;
 }
 #T0-3.show,#T1-3.show,#T2-3.show,#Tbutton3.show{
-  animation:show 3s;
+  animation:show 5s;
 }
 #T0-3.vanish,#T1-3.vanish,#T2-3.vanish{
-  animation:vanish 2s;
+  animation:vanish 3s;
 }
 
 
@@ -289,10 +289,10 @@ html, body {
   animation: slide4-1 4s;
 }
 #T0-4.show,#T1-4.show,#T2-4.show,#Tbutton4.show{
-  animation:show 3s;
+  animation:show 5s;
 }
 #T0-4.vanish,#T1-4.vanish,#T2-4.vanish{
-  animation:vanish 2s;
+  animation:vanish 3s;
 }
 @keyframes slide4-1{
     from {right:5%;opacity:1;}
@@ -400,10 +400,10 @@ html, body {
   animation: horse 12s;
 } */
 #T0-5.show,#T1-5.show,#T2-5.show,#T3-5.show,#T4-5.show,#T5-5.show,#Tbutton5.show{
-  animation:show 3s;
+  animation:show 5s;
 }
 #T0-5.vanish,#T1-5.vanish,#T2-5.vanish,#T3-5.vanish,#T4-5.vanish{
-  animation:vanish 2.5s;
+  animation:vanish 3s;
 }
 
 #Tmono6{
@@ -490,10 +490,10 @@ html, body {
   animation: horse 12s;
 } */
 #T0-6.show,#T1-6.show,#T2-6.show,#T3-6.show,#T4-6.show,#Tbutton6.show{
-  animation:show 3s;
+  animation:show 5s;
 }
 #T0-6.vanish,#T1-6.vanish,#T2-6.vanish,#T3-6.vanish{
-  animation:vanish 2.5s;
+  animation:vanish 3s;
 }
 
 

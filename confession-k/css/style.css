@@ -63,16 +63,16 @@ html, body {
 #kanazawa1{
   width:100%;
 }
-#T0-1{top:10%;animation: show 3s;  visibility: visible;}
+#T0-1{top:10%;animation: show 5s;  visibility: visible;}
 #T1-1{top:18%;}
 #Tmono1.vanish{
   animation: vanish 2s;
 }
 #T1-1.show,#Tbutton1.show{
-  animation:show 3s;
+  animation:show 5s;
 }
 #T0-1.vanish,#T1-1.vanish{
-  animation:vanish 2.5s;
+  animation:vanish 3s;
 }
 @keyframes blink{
     0% {opacity:1;}
@@ -146,10 +146,10 @@ html, body {
   animation: vanish 2s;
 }
 #T0-2.show,#T1-2.show,#T2-2.show,#T3-2.show,#T4-2.show,#Tbutton2.show{
-  animation:show 3s;
+  animation:show 5s;
 }
 #T0-2.vanish,#T1-2.vanish,#T2-2.vanish,#T3-2.vanish{
-  animation:vanish 2.5s;
+  animation:vanish 3s;
 }
 
 #Tmono3{
@@ -226,13 +226,13 @@ html, body {
   animation: vanish 2s;
 }
 #T0-3.show,#T1-3.show,#T3-3.show,#T4-3.show,#T5-3.show,#Tbutton3.show{
-  animation:show 3s;
+  animation:show 5s;
 }
 #T2-3.show {
-  animation:show 6s;
+  animation:show 9s;
 }
 #T0-3.vanish,#T1-3.vanish,#T2-3.vanish,#T3-3.vanish,#T4-3.vanish{
-  animation:vanish 2.5s;
+  animation:vanish 3s;
 }
 
 @keyframes show {
