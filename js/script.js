@@ -56,7 +56,7 @@ function show4(){
 
 
 function nextpage() {
-  window.setTimeout('window.location.replace("testimony/index.html")',10);
+  window.setTimeout('window.location.assign("testimony/index.html")',10);
 }
 
 "use strict";

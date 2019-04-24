@@ -16,18 +16,33 @@ function show1(){
   caption1.style.opacity = "0";
   caption2.classList.add("show");
   caption2.style.opacity = "1";
+  if(restart.style.visibility == "visible"){
+    caption1.style.opacity = "0";
+    caption2.style.opacity = "0";
+    caption3.style.opacity = "0";
+  }
 }
 function show2(){
   caption2.classList.add("vanish");
   caption2.style.opacity = "0";
   caption3.classList.add("show");
   caption3.style.opacity = "1";
+  if(restart.style.visibility == "visible"){
+    caption1.style.opacity = "0";
+    caption2.style.opacity = "0";
+    caption3.style.opacity = "0";
+  }
 }
 function show3(){
   caption3.classList.add("vanish");
   caption3.style.opacity = "0";
   restart.classList.add("show");
   restart.style.visibility = "visible";
+  if(restart.style.visibility == "visible"){
+    caption1.style.opacity = "0";
+    caption2.style.opacity = "0";
+    caption3.style.opacity = "0";
+  }
 }
 
 "use strict";
@@ -54,7 +69,6 @@ function setup() {
   button2.addEventListener("click",function(){ending2()});
   textAlign(CENTER);
   textSize(50);
-
 }
 function ending(){
   var name_input = input.value;

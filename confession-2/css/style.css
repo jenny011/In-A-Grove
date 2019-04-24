@@ -163,16 +163,16 @@ html, body {
 #Scene1.vanish{
   animation:vanish 2s;
 }
-#ri{
+#sun{
   height:100%;
   opacity:0;
   position: absolute;
   left:5%;
 }
-#ri.show{
-  animation:showri 8s;
+#sun.show{
+  animation:showsun 8s;
 }
-@keyframes showri{
+@keyframes showsun{
   from{opacity:0;}
   to{opacity:0.4;}
 }

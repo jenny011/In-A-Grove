@@ -115,6 +115,9 @@ html, body {
 #caption1,#caption2,#caption3,#restart{
   position:absolute;
 }
+#caption1,#caption2,#caption3{
+  opacity:0;
+}
 #caption1{
   top:20%;
 }

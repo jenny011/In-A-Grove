@@ -247,5 +247,5 @@ function nextpage(){
 function go(){
   document.getElementById("interface").classList.add("vanish");
   interface.style.opacity = "0";
-  setInterval(function(){window.location.replace('../confession-t/index.html')},1000);
+  setInterval(function(){window.location.assign('../confession-t/index.html')},1000);
 }

@@ -50,7 +50,7 @@ var kc04 = document.getElementById("kc04");
 var kc05 = document.getElementById("kc05");
 var kc06 = document.getElementById("kc06");
 var bg = document.getElementById("bg");
-var ri = document.getElementById("ri");
+var sun = document.getElementById("sun");
 
 t.addEventListener("click",function(){show1()});
 tbutton1.addEventListener("click",function(){back1()});
@@ -120,8 +120,8 @@ function show14(){
   tc03.classList.add("show");
   tc03.style.visibility = "visible";
   tc03.style.opacity = "1";
-  ri.classList.add("show");
-  ri.style.opacity = "0.4";
+  sun.classList.add("show");
+  sun.style.opacity = "0.4";
   tc04.classList.add("show");
   tc04.style.visibility = "visible";
   tc04.style.opacity = "1";
@@ -158,8 +158,11 @@ function back1(){
   t.style.width = "20%";
   tc01.style.opacity = "0";
   tc03.style.opacity = "0";
-  ri.style.opacity = "0";
-  ri.classList.remove("show");
+  sun.style.opacity = "0";
+  sun.classList.remove("show");
+  if(n1==1&&n2==1&&n3==1){
+    btn1.style.opacity="1";
+  }
 }
 
 function show2(){
@@ -237,8 +240,8 @@ function show24(){
   kc05.classList.add("show");
   kc05.style.visibility = "visible";
   kc05.style.opacity = "1";
-  ri.classList.add("show");
-  ri.style.opacity = "0.4";
+  sun.classList.add("show");
+  sun.style.opacity = "0.4";
   kc06.classList.add("show");
   kc06.style.visibility = "visible";
   kc06.style.opacity = "1";
@@ -268,8 +271,11 @@ function back2(){
   k.style.width = "20%";
   kc06.style.opacity = "0";
   bg.src="image/bg_cedar.png";
-  ri.style.opacity = "0";
-  ri.classList.remove("show");
+  sun.style.opacity = "0";
+  sun.classList.remove("show");
+  if(n1==1&&n2==1&&n3==1){
+    btn1.style.opacity="1";
+  }
 }
 
 function show3(){
@@ -353,8 +359,8 @@ function show36(){
   mc04.classList.add("show");
   mc04.style.visibility = "visible";
   mc04.style.opacity = "1";
-  ri.classList.add("show");
-  ri.style.opacity = "0.4";
+  sun.classList.add("show");
+  sun.style.opacity = "0.4";
   bg.src = "image/bg_cedar2.png";
   setTimeout(function(){show37()},6500);
 }
@@ -387,8 +393,11 @@ function back3(){
   m.style.width = "20%";
   mc04.style.opacity = "0";
   bg.src="image/bg_cedar.png";
-  ri.style.opacity = "0";
-  ri.classList.remove("show");
+  sun.style.opacity = "0";
+  sun.classList.remove("show");
+  if(n1==1&&n2==1&&n3==1){
+    btn1.style.opacity="1";
+  }
 }
 
 function next1(){
@@ -398,5 +407,5 @@ function next1(){
 }
 
 function go(){
-  window.setTimeout('window.location.replace("../ending/index.html")',10);
+  window.setTimeout('window.location.assign("../ending/index.html")',10);
 }

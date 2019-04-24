@@ -109,6 +109,10 @@ function back1(){
   t.style.width = "20%";
   tc01.style.opacity = "0";
   bg.src="image/bg_cedar.png";
+  if(n1==1&&n2==1&&n3==1){
+    btn1.innerHTML=">>>go to the next part";
+    btn1.style.opacity="1";
+  }
 }
 
 function show2(){
@@ -178,6 +182,10 @@ function back2(){
   k.style.width = "20%";
   kc02.style.opacity = "0";
   bg.src="image/bg_cedar.png";
+  if(n1==1&&n2==1&&n3==1){
+    btn1.innerHTML=">>>go to the next part";
+    btn1.style.opacity="1";
+  }
 }
 
 function show3(){
@@ -242,6 +250,10 @@ function back3(){
   m.style.width = "20%";
   mc01.style.opacity = "0";
   bg.src="image/bg_cedar.png";
+  if(n1==1&&n2==1&&n3==1){
+    btn1.innerHTML=">>>go to the next part";
+    btn1.style.opacity="1";
+  }
 }
 
 function next1(){
@@ -251,5 +263,5 @@ function next1(){
 }
 
 function go(){
-  window.setTimeout('window.location.replace("../confession-2/index.html")',10);
+  window.setTimeout('window.location.assign("../confession-2/index.html")',10);
 }
