@@ -1,10 +1,8 @@
-# """To view the project, start from file 'index.html'"""
-# """Thank you for your interest!"""
 # Interactive Novel - In a Grove
-# Communications Lab course project
-# Original Novel by Akutagawa Ryunosuke
-# Adaptation by Jingyi Zhu and Luna Wan
-# Visual elements with reference - Characters by Jingyi Zhu - Background images by Luna Wan
-# Interaction Design - Jingyi Zhu
-# Coding - Jingyi Zhu and Luna Wan
-# Bakcground Music - found online and inserted by Luna Wan (credits see file "Credits")
+## Communications Lab course project
+Original Novel by Akutagawa Ryunosuke </br>
+Adaptation by Jingyi Zhu and Luna Wan </br>
+Visual elements designed with reference - Characters by Jingyi Zhu - Background images by Luna Wan </br>
+Interaction Design - Jingyi Zhu </br>
+Implementation - Jingyi Zhu and Luna Wan </br>
+See "Credits" file for credits and references
